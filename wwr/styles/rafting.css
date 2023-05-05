@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@200&display=swap');
+
+:root {
+    --primary-color: #82A0BC;
+    --secondary-color: #304D6D;
+    --accent1-color: #B3EFB2;
+    --accent2-color: #545e75;
+    --accent3-color: #6BAA75;
+    --accent4-color: rgba(83, 93, 124, .8);
+
+    --heading-font: 'Dancing Script', cursive;
+    --paragraph-font: 'Raleway', sans-serif;
+
+    --nav-background-color: #304D6D;
+    --nav-link-color: white;
+    --nav-hover-link-color: #6BAA75;
+    --nav-hover-background-color: #82A0BC;
+}
+
+.hero img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 5.5%;
+    right: 5.5%;
+    padding: 10px;
+    font-family: var(--heading-font);
+    background-color: var(--accent4-color);
+    color: rgba(255, 255, 255);
+    font-weight: 800;
+}
+.hero article {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 8%;
+    padding: 15px;
+    background-color: var(--accent4-color);
+    color: rgba(255, 255, 255);
+    font-weight: 800;
+}
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    z-index: 1;
+}
+body {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+footer {
+    text-align: left;
+}
+footer img {
+    width: 2.5%;
+}
