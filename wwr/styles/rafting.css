@@ -17,6 +17,9 @@
     --nav-hover-background-color: #82A0BC;
 }
 
+a {
+    text-decoration: none;
+}
 .hero img {
     display: block;
     position: relative;
