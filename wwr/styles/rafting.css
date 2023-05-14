@@ -130,9 +130,13 @@ h2-h6 {
 .adventure-img h2 {
     width: 100%;
 }
-.adventure-img img {
-    max-width: 225px;
-    padding: 30px;
+.adventure-img img, figure {
+    max-width: 200px;
+    margin: 0 auto;
+}
+figcaption {
+    text-align: center;
+    padding-bottom: 30px;
 }
 footer {
     text-align: left;
