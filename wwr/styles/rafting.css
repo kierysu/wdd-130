@@ -40,7 +40,7 @@ nav {
 }
 .navigation a {
 	display: block;
-    justify-items: space-around;
+    justify-items:center;
 	color: var(--secondary-color);
 	padding: 6%;
 	text-decoration: none;
