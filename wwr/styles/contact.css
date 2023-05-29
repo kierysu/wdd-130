@@ -127,6 +127,10 @@ iframe {
 .employees img {
     max-height: 12em;
     grid-row-start: 1;
+    border: solid 2px var(--secondary-color);
+}
+figcaption {
+    padding: .7em;
 }
 
 /* Form */
