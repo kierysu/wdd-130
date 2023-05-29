@@ -53,7 +53,7 @@ nav {
     height: auto;
     z-index: -1;
 }
-h1 {
+.about {
     position: absolute;
     top: 30%;
     left: 5.5%;
@@ -151,4 +151,112 @@ footer img {
     width: 40%;
     text-decoration: none;
     align-items: center;
+}
+
+
+
+
+
+/* Contact Page */
+.contact {
+    max-width: 28em;
+    padding: 10px;
+    font-family: var(--heading-font);
+    background-color: var(--accent4-color);
+    color: rgba(255, 255, 255);
+    font-weight: 800;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* Company Info */
+.company-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 6em;
+    align-items: center;
+}
+.company-info h2 {
+    text-align: left;
+    font-size: 20px;
+}
+.company-info p {
+    text-align: left;
+    font-size: 20px;
+}
+iframe {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    max-width: 700px;
+    max-height: 300px;
+}
+
+/* Employees */
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 6em;
+    align-items: center;
+    justify-items: center;
+}
+.employees img {
+    max-height: 12em;
+    grid-row-start: 1;
+    border: solid 2px var(--secondary-color);
+}
+figcaption {
+    padding: .7em;
+}
+
+/* Form */
+form {
+    width: 85%;
+    max-width: 800px;
+    display: grid;
+    grid-gap: 8px;
+    margin: 0 auto;
+    background-color: #e3e6e9;
+    border: solid 2px var(--secondary-color);
+    padding: .6em;
+    margin-bottom: 6em;
+    margin-top: 3em;
+}
+label {
+    padding: .5em;
+    text-align: left;
+}
+input, textarea, select, button {
+    font-family: Raleway;
+    padding: .7em;
+    margin-right: .5em;
+    margin-left: .5em;
+    margin-bottom: .9em;
+    border: solid 1px var(--secondary-color);
+}
+subscribe {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.radio {
+    display: grid;
+    grid-template-columns: 3fr 1fr 4fr;
+    align-items: center;
+}
+input {
+    max-height: 15px;
+}
+button {
+    font-weight: bold;
+    margin: 1em;
+    background-color: #ffffff;
+}
+button:hover {
+    background-color: var(--primary-color);
+    color: white; 
 }
