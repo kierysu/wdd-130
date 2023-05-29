@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@200&display=swap');
+
+body {
+    font-family: Raleway;
+    font-size: 17px;
+    color: black;
+    background: white;
+}
+h1 {
+    font-family: Dancing Script;
+    text-align: center;
+    padding: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid gray 2px;
+    border-radius: 8px;
+    background-color: rgb(248, 250, 255);
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 6px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+}
+legend {
+    font-family: Dancing Script;
+    font-size: 23px;
+}
+button {
+    font-family: Dancing Script;
+    font-size: large;
+    border-radius: 3px;
+    border: solid 1px rgb(166, 166, 166);
+    margin: 11px;
+}
+button:hover {
+    background-color: rgb(138, 140, 149);
+    border-radius: 3px;
+    color: rgb(234, 234, 234);
+}
+input, textarea, select {
+    font-family: Raleway;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px rgb(166, 166, 166);
+}
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+    border-radius: 3px;
+    border: solid 1px rgb(166, 166, 166);
+}
+label {
+    text-align: left;
+    padding-right: 20px;
+}
+footer {
+    border-top: dotted gray 2px;
+    padding-top: 7px;
+    margin-top: 155px;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 6px;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
