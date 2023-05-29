@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: Dancing Script;
+    text-align: center;
+    padding: 1em;
+}
+form {
+    width: 85%;
+    max-width: 800px;
+    display: grid;
+    grid-gap: 8px;
+    margin: 0 auto;
+    background-color: rgb(228, 233, 243);
+    border: solid 2px gray;
+    border-radius: 4px;
+    padding: .6em;
+    margin-bottom: 6em;
+}
+legend {
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+}
+fieldset {
+    display: grid;
+    grid-gap: .2em;
+    border-radius: 4px;
+    font-family: Raleway;
+}
+label {
+    padding: .5em;
+}
+p {
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: .25em;
+    width: 45%;
+    text-indent: -10px;
+    margin: 0 auto;
+    margin-top: .2em;
+}
+input, textarea, select, button {
+    font-family: Raleway;
+    border-radius: .2em;
+    padding: .7em;
+    margin-right: .5em;
+    margin-left: .5em;
+    margin-bottom: .9em;
+    border: solid 1px gray;
+}
+button {
+    font-weight: bold;
+    margin: 1em;
+}
+button:hover {
+    background-color: rgb(92, 92, 140);
+    color: white; 
+}

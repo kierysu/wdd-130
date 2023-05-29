@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>HTML</legend>
+                    <label for="q1">What does the acronym HTML mean?</label>
+                    <input type="text" id="q1" name="q1">
+                    <label for="q2">Please write the basic elements required for the 'head' section as you would if you were starting a document, including a link to a CSS page:</label>
+                    <textarea id="q2" name="q2" rows="6" placeholder=">"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>CSS</legend>
+                    <p>h1 {<br>font-family: Verdana;<br>padding: 10px;<br>text-align: center;<br>}</p>
+                    <label for="q3">Which is a selector in the above line of code?</label>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="padding">padding</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value=";">;</option>
+                        <option value="h1">h1</option>
+                        <option value="{}">{}</option>
+                        <option value="text-align">text-align</option>
+                    </select>
+                    <p>form {<br>width: 85%;<br>max-width: 800px;<br>grid-gap: 8px;<br>margin: 0 auto;<br>border: solid 2px gray;<br>border-radius: 4px;<br>padding: .6em;<br>}</p>
+                    <label for="q4">What is the value that affects how round the corners of the selected section are?</label>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
