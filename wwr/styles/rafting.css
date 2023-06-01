@@ -514,6 +514,11 @@ tr, td, th {
 .style1 {
     background-color: #e3e6e9;
 }
+.special-offers{
+    padding-bottom: 2.5em;
+    color: var(--accent3-color);
+    font-weight: bold;
+}
 
 
 
