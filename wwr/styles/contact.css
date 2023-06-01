@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@200&display=swap');
+
+:root {
+    --primary-color: #82A0BC;
+    --secondary-color: #304D6D;
+    --accent1-color: #B3EFB2;
+    --accent2-color: #545e75;
+    --accent3-color: #6BAA75;
+    --accent4-color: rgba(83, 93, 124, .8);
+
+    --heading-font: 'Dancing Script', cursive;
+    --paragraph-font: 'Raleway', sans-serif;
+
+    --nav-background-color: #304D6D;
+    --nav-link-color: white;
+    --nav-hover-link-color: #6BAA75;
+    --nav-hover-background-color: #82A0BC;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+	display: grid;
+	grid-template-columns: .5fr 2fr 2fr;
+	align-items: flex-end;
+    margin-left: 3%;
+    margin-right: 3%;
+	border-bottom: 6px solid var(--secondary-color);
+    margin-bottom:7px;
+}
+nav {
+	text-align: center;
+}
+.navigation {
+	display: flex;
+    flex-direction: row;
+	list-style: none;
+    justify-content: center;
+}
+.navigation a {
+	display: block;
+    justify-items:center;
+	color: var(--secondary-color);
+	padding: 6%;
+	text-decoration: none;
+    font-weight: bold;
+}
+h1 {
+    max-width: 28em;
+    padding: 10px;
+    font-family: var(--heading-font);
+    background-color: var(--accent4-color);
+    color: rgba(255, 255, 255);
+    font-weight: 800;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+body {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+h2-h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 30px;
+}
+footer {
+    text-align: left;
+    display: flex;
+}
+footer p {
+    width: 400%;
+    margin-left: 40%;
+    align-items: center;
+}
+footer img {
+    width: 40%;
+    text-decoration: none;
+    align-items: center;
+}
+
+/* Company Info */
+.company-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 6em;
+    align-items: center;
+}
+.company-info h2 {
+    text-align: left;
+    font-size: 20px;
+}
+.company-info p {
+    text-align: left;
+    font-size: 20px;
+}
+iframe {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    max-width: 700px;
+    max-height: 300px;
+}
+
+/* Employees */
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 6em;
+    align-items: center;
+    justify-items: center;
+}
+.employees img {
+    max-height: 12em;
+    grid-row-start: 1;
+    border: solid 2px var(--secondary-color);
+}
+figcaption {
+    padding: .7em;
+}
+
+/* Form */
+form {
+    width: 85%;
+    max-width: 800px;
+    display: grid;
+    grid-gap: 8px;
+    margin: 0 auto;
+    background-color: #e3e6e9;
+    border: solid 2px var(--secondary-color);
+    padding: .6em;
+    margin-bottom: 6em;
+    margin-top: 3em;
+}
+label {
+    padding: .5em;
+    text-align: left;
+}
+input, textarea, select, button {
+    font-family: Raleway;
+    padding: .7em;
+    margin-right: .5em;
+    margin-left: .5em;
+    margin-bottom: .9em;
+    border: solid 1px var(--secondary-color);
+}
+subscribe {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.radio {
+    display: grid;
+    grid-template-columns: 3fr 1fr 4fr;
+    align-items: center;
+}
+input {
+    max-height: 15px;
+}
+button {
+    font-weight: bold;
+    margin: 1em;
+    background-color: #ffffff;
+}
+button:hover {
+    background-color: var(--primary-color);
+    color: white; 
+}
