@@ -416,7 +416,6 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 4fr;
     justify-items: center;
-    align-items: top;
     margin-bottom: 4.5em;
     grid-gap: .7em;
 }
